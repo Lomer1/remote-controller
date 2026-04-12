@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110DE7156F5AC6F8096F7412 /* TouchpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619749D1131F17A3CB6998B /* TouchpadView.swift */; };
+		15FDE630B71CE2E33CCA4D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0ACDDDA4A567DAC2F60997 /* LaunchScreen.storyboard */; };
+		317D959789E92AC23DCD7B17 /* MultipeerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3968F63DEA8299F49D3D2 /* MultipeerBrowser.swift */; };
+		5F10DA2761078D956AD57FDB /* RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC954D12545E5AB4114DABB5 /* RemoteCommand.swift */; };
+		5F8937F986A530756A42E96F /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD9825F2F78E2CF3C9B5F6 /* ConnectionView.swift */; };
+		6177F3FC82F422BC50E72A92 /* MacRemote.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 057E3CF3B7E9E0B8AF0E3B40 /* MacRemote.xcodeproj */; };
+		B40F2B92F2056A6EBC92BCCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3624EA59AA18A4C7741AA /* ContentView.swift */; };
+		B60AE4AAA3D430B7CBC977DF /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0206CD32441FCB6C80A6AE08 /* BonjourBrowser.swift */; };
+		BD850F7771142A7B5C6A0A48 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A196FB04A0DEB7493D5118 /* ConnectionManager.swift */; };
+		E1407E3D768948CE3592AA17 /* MediaControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5717FDACDDAAB335BF810 /* MediaControlView.swift */; };
+		E17CB8A0BA2A3C4F90CD8F92 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB126A3E93F74112377CEE92 /* KeyboardView.swift */; };
+		FCFC82F5407CBFD7C79CC3C8 /* MacRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5EB11967312DA293492C2 /* MacRemoteApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0206CD32441FCB6C80A6AE08 /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		057E3CF3B7E9E0B8AF0E3B40 /* MacRemote.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MacRemote.xcodeproj; sourceTree = "<group>"; };
+		127B55D1FDE02A777802AC55 /* MacRemote.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MacRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A5717FDACDDAAB335BF810 /* MediaControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlView.swift; sourceTree = "<group>"; };
+		20A196FB04A0DEB7493D5118 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		3D701588D345538A49C8953A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E0ACDDDA4A567DAC2F60997 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CD9825F2F78E2CF3C9B5F6 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		41C5EB11967312DA293492C2 /* MacRemoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacRemoteApp.swift; sourceTree = "<group>"; };
+		AC954D12545E5AB4114DABB5 /* RemoteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCommand.swift; sourceTree = "<group>"; };
+		B5A3624EA59AA18A4C7741AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBB3968F63DEA8299F49D3D2 /* MultipeerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerBrowser.swift; sourceTree = "<group>"; };
+		D619749D1131F17A3CB6998B /* TouchpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchpadView.swift; sourceTree = "<group>"; };
+		EB126A3E93F74112377CEE92 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E88164081DFF9D6538E7C6F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0206CD32441FCB6C80A6AE08 /* BonjourBrowser.swift */,
+				20A196FB04A0DEB7493D5118 /* ConnectionManager.swift */,
+				CBB3968F63DEA8299F49D3D2 /* MultipeerBrowser.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		750418037BCB6E4EAC1A1575 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC954D12545E5AB4114DABB5 /* RemoteCommand.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F4D997D9E0D69C2CA5F7F76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40CD9825F2F78E2CF3C9B5F6 /* ConnectionView.swift */,
+				B5A3624EA59AA18A4C7741AA /* ContentView.swift */,
+				EB126A3E93F74112377CEE92 /* KeyboardView.swift */,
+				13A5717FDACDDAAB335BF810 /* MediaControlView.swift */,
+				D619749D1131F17A3CB6998B /* TouchpadView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1539BBB6DF34C27D7C12054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				127B55D1FDE02A777802AC55 /* MacRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1BC85A743D440064D2DA98A /* MacRemote */ = {
+			isa = PBXGroup;
+			children = (
+				3D701588D345538A49C8953A /* Info.plist */,
+				3E0ACDDDA4A567DAC2F60997 /* LaunchScreen.storyboard */,
+				057E3CF3B7E9E0B8AF0E3B40 /* MacRemote.xcodeproj */,
+				41C5EB11967312DA293492C2 /* MacRemoteApp.swift */,
+			);
+			name = MacRemote;
+			path = .;
+			sourceTree = "<group>";
+		};
+		C638E98C2F8BA6000088F0FA /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F62F5EA6397CE76A4B6B24 = {
+			isa = PBXGroup;
+			children = (
+				B1BC85A743D440064D2DA98A /* MacRemote */,
+				750418037BCB6E4EAC1A1575 /* Model */,
+				1E88164081DFF9D6538E7C6F /* Networking */,
+				7F4D997D9E0D69C2CA5F7F76 /* Views */,
+				A1539BBB6DF34C27D7C12054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EABD9CD80E34DA4289431DB /* MacRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68FF90833C74E9821E92FF8 /* Build configuration list for PBXNativeTarget "MacRemote" */;
+			buildPhases = (
+				AF67F069F0BAAEA3295CA1E1 /* Sources */,
+				EDA199F102AF2EB62E529933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacRemote;
+			packageProductDependencies = (
+			);
+			productName = MacRemote;
+			productReference = 127B55D1FDE02A777802AC55 /* MacRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45DBA50D26D3CCD5C2210937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2EABD9CD80E34DA4289431DB = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0E57B0B4DF3320DAE7063147 /* Build configuration list for PBXProject "MacRemote" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D8F62F5EA6397CE76A4B6B24;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A1539BBB6DF34C27D7C12054 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C638E98C2F8BA6000088F0FA /* Products */;
+					ProjectRef = 057E3CF3B7E9E0B8AF0E3B40 /* MacRemote.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2EABD9CD80E34DA4289431DB /* MacRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA199F102AF2EB62E529933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FDE630B71CE2E33CCA4D7F /* LaunchScreen.storyboard in Resources */,
+				6177F3FC82F422BC50E72A92 /* MacRemote.xcodeproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF67F069F0BAAEA3295CA1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60AE4AAA3D430B7CBC977DF /* BonjourBrowser.swift in Sources */,
+				BD850F7771142A7B5C6A0A48 /* ConnectionManager.swift in Sources */,
+				5F8937F986A530756A42E96F /* ConnectionView.swift in Sources */,
+				B40F2B92F2056A6EBC92BCCE /* ContentView.swift in Sources */,
+				E17CB8A0BA2A3C4F90CD8F92 /* KeyboardView.swift in Sources */,
+				FCFC82F5407CBFD7C79CC3C8 /* MacRemoteApp.swift in Sources */,
+				E1407E3D768948CE3592AA17 /* MediaControlView.swift in Sources */,
+				317D959789E92AC23DCD7B17 /* MultipeerBrowser.swift in Sources */,
+				5F10DA2761078D956AD57FDB /* RemoteCommand.swift in Sources */,
+				110DE7156F5AC6F8096F7412 /* TouchpadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		126A02E19167E7AFE9EDECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macremote.client;
+				PRODUCT_NAME = MacRemote;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		461A987811EF078970367C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D31BAFE875C61A322C7E5218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E7C01623C73D3213165EA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macremote.client;
+				PRODUCT_NAME = MacRemote;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E57B0B4DF3320DAE7063147 /* Build configuration list for PBXProject "MacRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461A987811EF078970367C0A /* Debug */,
+				D31BAFE875C61A322C7E5218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E68FF90833C74E9821E92FF8 /* Build configuration list for PBXNativeTarget "MacRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C01623C73D3213165EA1D5 /* Debug */,
+				126A02E19167E7AFE9EDECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45DBA50D26D3CCD5C2210937 /* Project object */;
+}
