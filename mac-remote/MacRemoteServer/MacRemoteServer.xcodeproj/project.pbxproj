@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F0410B24F6A8986059CFB5 /* MouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB765EE900F39228E276947 /* MouseController.swift */; };
+		26B4497247715EE0DBB00399 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFAF93181DE277A2E0E8F63 /* MediaController.swift */; };
+		30A82B0378C5C98DCBE4FC8B /* MacRemoteServerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9C2B4C8DA1A29F7998BB /* MacRemoteServerApp.swift */; };
+		33DC3F948A391113C5763ED5 /* BonjourServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0D5B50B16EE62C045275D /* BonjourServer.swift */; };
+		6053461549362962A5A10A92 /* BrightnessBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BF90121271251FD8AAA12A /* BrightnessBridge.m */; };
+		7C8C1683512233AA95E80BAB /* RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E3C5FB13AC3FB43B1602E /* RemoteCommand.swift */; };
+		83489F54131DF54F9D934A9E /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7BA44781673AF855F43F1 /* StatusView.swift */; };
+		909ED2999018596817DFD088 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9408034E415BAB05A78B2E0 /* ConnectionManager.swift */; };
+		B1783F84363DD5A51C44FF64 /* MacRemoteServer.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 73F8A7137C9125BE20FBBACC /* MacRemoteServer.xcodeproj */; };
+		B32ED830486012E57FE170BC /* MultipeerServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB32E8296C277CFFEB97AD1 /* MultipeerServer.swift */; };
+		DCD8BB872DB3B4AC513B4F0E /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CEAEE34E99610FCFEB438F /* KeyboardController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EFAF93181DE277A2E0E8F63 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
+		11813790C8ECCA9FEF19D9B4 /* MacRemoteServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MacRemoteServer.app; path = "MacRemote Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168E3C5FB13AC3FB43B1602E /* RemoteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCommand.swift; sourceTree = "<group>"; };
+		1C5D9C2B4C8DA1A29F7998BB /* MacRemoteServerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacRemoteServerApp.swift; sourceTree = "<group>"; };
+		24BF90121271251FD8AAA12A /* BrightnessBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrightnessBridge.m; sourceTree = "<group>"; };
+		31B0DA2939D8A2131A0FE17B /* BrightnessBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrightnessBridge.h; sourceTree = "<group>"; };
+		40CEAEE34E99610FCFEB438F /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		5FB765EE900F39228E276947 /* MouseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseController.swift; sourceTree = "<group>"; };
+		6C605B665B3E9DB5FC1BD69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		73F8A7137C9125BE20FBBACC /* MacRemoteServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MacRemoteServer.xcodeproj; sourceTree = "<group>"; };
+		9CF7BA44781673AF855F43F1 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		A9408034E415BAB05A78B2E0 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		C7C0D5B50B16EE62C045275D /* BonjourServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourServer.swift; sourceTree = "<group>"; };
+		CBB32E8296C277CFFEB97AD1 /* MultipeerServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		411EDEC80988146E86C8D668 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				40CEAEE34E99610FCFEB438F /* KeyboardController.swift */,
+				0EFAF93181DE277A2E0E8F63 /* MediaController.swift */,
+				5FB765EE900F39228E276947 /* MouseController.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		507DE3C9515CEE9287F1EDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CF7BA44781673AF855F43F1 /* StatusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CB5805E75808C819E8BF752 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C7C0D5B50B16EE62C045275D /* BonjourServer.swift */,
+				A9408034E415BAB05A78B2E0 /* ConnectionManager.swift */,
+				CBB32E8296C277CFFEB97AD1 /* MultipeerServer.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B651F834093ACB552D942D3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				168E3C5FB13AC3FB43B1602E /* RemoteCommand.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3DDA6DB924923A4DE64B8DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11813790C8ECCA9FEF19D9B4 /* MacRemoteServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61F15C02F8BC89300650920 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3084309EFF999B8E8B40A36 = {
+			isa = PBXGroup;
+			children = (
+				411EDEC80988146E86C8D668 /* Input */,
+				FFCE7B439881CA5D19CFA121 /* MacRemoteServer */,
+				B651F834093ACB552D942D3B /* Model */,
+				8CB5805E75808C819E8BF752 /* Networking */,
+				507DE3C9515CEE9287F1EDC0 /* Views */,
+				C3DDA6DB924923A4DE64B8DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCE7B439881CA5D19CFA121 /* MacRemoteServer */ = {
+			isa = PBXGroup;
+			children = (
+				31B0DA2939D8A2131A0FE17B /* BrightnessBridge.h */,
+				24BF90121271251FD8AAA12A /* BrightnessBridge.m */,
+				6C605B665B3E9DB5FC1BD69E /* Info.plist */,
+				73F8A7137C9125BE20FBBACC /* MacRemoteServer.xcodeproj */,
+				1C5D9C2B4C8DA1A29F7998BB /* MacRemoteServerApp.swift */,
+			);
+			name = MacRemoteServer;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33FE4BDA43D743E0A759B75 /* MacRemoteServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525BBF36B7D6D14610D784B4 /* Build configuration list for PBXNativeTarget "MacRemoteServer" */;
+			buildPhases = (
+				AD6861FF478329F01B2E646A /* Sources */,
+				9CE3CB2D218B97DEF61FF040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacRemoteServer;
+			packageProductDependencies = (
+			);
+			productName = MacRemoteServer;
+			productReference = 11813790C8ECCA9FEF19D9B4 /* MacRemoteServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FB114A1E5C696124E206FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D33FE4BDA43D743E0A759B75 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7C6871C0CFFC5A8872177BB /* Build configuration list for PBXProject "MacRemoteServer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D3084309EFF999B8E8B40A36;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3DDA6DB924923A4DE64B8DC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C61F15C02F8BC89300650920 /* Products */;
+					ProjectRef = 73F8A7137C9125BE20FBBACC /* MacRemoteServer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D33FE4BDA43D743E0A759B75 /* MacRemoteServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CE3CB2D218B97DEF61FF040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1783F84363DD5A51C44FF64 /* MacRemoteServer.xcodeproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD6861FF478329F01B2E646A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DC3F948A391113C5763ED5 /* BonjourServer.swift in Sources */,
+				6053461549362962A5A10A92 /* BrightnessBridge.m in Sources */,
+				909ED2999018596817DFD088 /* ConnectionManager.swift in Sources */,
+				DCD8BB872DB3B4AC513B4F0E /* KeyboardController.swift in Sources */,
+				30A82B0378C5C98DCBE4FC8B /* MacRemoteServerApp.swift in Sources */,
+				26B4497247715EE0DBB00399 /* MediaController.swift in Sources */,
+				23F0410B24F6A8986059CFB5 /* MouseController.swift in Sources */,
+				B32ED830486012E57FE170BC /* MultipeerServer.swift in Sources */,
+				7C8C1683512233AA95E80BAB /* RemoteCommand.swift in Sources */,
+				83489F54131DF54F9D934A9E /* StatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08772089A665A6516B41A07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macremote.server;
+				PRODUCT_NAME = "MacRemote Server";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = BrightnessBridge.h;
+			};
+			name = Debug;
+		};
+		0E2D78AD977EBC9F8E074324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		587B8AA1920068B515023227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macremote.server;
+				PRODUCT_NAME = "MacRemote Server";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = BrightnessBridge.h;
+			};
+			name = Release;
+		};
+		5E88B47A3723191888EBADC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525BBF36B7D6D14610D784B4 /* Build configuration list for PBXNativeTarget "MacRemoteServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08772089A665A6516B41A07B /* Debug */,
+				587B8AA1920068B515023227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7C6871C0CFFC5A8872177BB /* Build configuration list for PBXProject "MacRemoteServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E88B47A3723191888EBADC9 /* Debug */,
+				0E2D78AD977EBC9F8E074324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6FB114A1E5C696124E206FB /* Project object */;
+}

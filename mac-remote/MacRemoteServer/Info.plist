@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Скрыть иконку из Dock (только меню бар) -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- Описание доступа к Accessibility для CGEvent -->
+    <key>NSAccessibilityUsageDescription</key>
+    <string>MacRemote Server needs Accessibility access to control mouse, keyboard, and media keys on behalf of the connected iOS device.</string>
+
+    <!-- Описание для локальной сети (Bonjour) -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>MacRemote Server uses the local network to receive commands from the iOS remote control app.</string>
+
+    <!-- Bonjour-сервисы, которые объявляет приложение -->
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_macremote._tcp</string>
+    </array>
+
+    <!-- Версия приложения -->
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <!-- Идентификатор -->
+    <key>CFBundleIdentifier</key>
+    <string>com.macremote.server</string>
+
+    <!-- Имя -->
+    <key>CFBundleName</key>
+    <string>MacRemote Server</string>
+
+    <!-- Минимальная версия macOS -->
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+
+    <!-- Без песочницы -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+</dict>
+</plist>
